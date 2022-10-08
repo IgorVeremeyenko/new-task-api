@@ -1,0 +1,93 @@
+.container {
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td,
+th {
+    overflow: hidden;
+    width: 50px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-container {
+    max-height: 600px;
+    overflow: auto;
+}
+
+.mat-paginator-sticky {
+    bottom: 0px;
+    position: sticky;
+    z-index: 10;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+}
+
+.example-element-row td {
+    border-bottom-width: 0;
+}
+
+.example-element-detail {
+    overflow: hidden;
+    display: flex;
+}
+
+.example-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+}
+
+.example-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.example-element-description {
+    padding: 16px;
+}
+
+.example-element-description-attribution {
+    opacity: 0.5;
+}
+
+.extended-cell {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.status-column {
+    width: 100px;
+}
+
+.mat-column-id {
+    width: 7% !important;
+}
+
+.td[_ngcontent-thq-c137], th[_ngcontent-thq-c137]{
+    width: -35px!important;
+}
+
+#myId {
+    width: 0;
+}
